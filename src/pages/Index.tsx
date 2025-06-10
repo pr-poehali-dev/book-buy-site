@@ -10,12 +10,13 @@ import type { BookingData } from "@/components/BookingForm";
 const mockBooks: Book[] = [
   {
     id: "1",
-    title: "Война и мир",
-    author: "Лев Толстой",
+    title: "Сначала - дружба",
+    author: "Сунгуров Антон",
     price: 890,
     image:
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop",
-    description: "Классический роман о войне 1812 года",
+      "https://cdn.poehali.dev/files/d4d18104-4891-4ceb-87eb-d2ec187fc195.jpg",
+    description:
+      "Романтическая история по мотивам одноимённого короткометражного фильма о том, как дружба может перерасти в нечто большее",
     available: true,
   },
   {
